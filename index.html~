@@ -23,18 +23,24 @@
 	alt="google"/>
 </div>
 <div id="search">
-	<p><input type="text" name="text1" autofocus="true" size="50px" /></p>
-	<input type="button" name="search" title="Search" value="Search" size="20px" />
-   <input type="button" name="fell lucky" title="fell lucky" value="fell lucky" size="20px" />	
+	<form action="https://www.google.com/search">
+		<p><input type="text" name="q" autofocus="true" size="50px" /></p>
+		<input type="submit" name="search" title="Search" value="Search" size="50px" />
+   	<input type="button" name="fell lucky" title="fell lucky" value="fell lucky" size="50px" />
+   </form>	
 </div>
 <div id="footer">
-	<a class="right" href="" >Advertising</a>
-	<a class="right" href="" >Business</a>
-	<a class="right" href="" >About</a>
-	<a class="left" href="" >Privacy</a>
-	<a class="left" href="" >Terms</a>
-	<a class="left" href="" >Settings</a>
-	<a class="left" href="" >Use Google.com</a>
+	<div id="right">
+		<a class="right" href="" >Advertising</a>
+		<a class="right" href="" >Business</a>
+		<a class="right" href="" >About</a>
+	</div>
+	<div id="left">
+		<a class="left" href="" >Privacy</a>
+		<a class="left" href="" >Terms</a>
+		<a class="left" href="" >Settings</a>
+		<a class="left" href="" >Use Google.com</a>
+	</div>
 </div>
 </body>
 

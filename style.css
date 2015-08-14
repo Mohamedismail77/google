@@ -10,32 +10,29 @@
 	left: 0;
 	bottom: 0;
 	padding: 1rem;
-	
 	vertical-align: baseline;
 }
-
-.right{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 50px;
+#footer div{
 	display: inline-block;
-	position: relative;
-	text-decoration: none;
-	color: black;
-	text-align: right;
 }
 
-.left{
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-bottom: 20px;
-	display: inline-block;
-	position: relative;
+#left{
+	position: absolute;
+	right: 0;
+   top: 35%;
+}
+
+
+
+#footer a{
 	text-decoration: none;
 	color: black;
-	text-align: left;
+	margin-right: 20px;
+	
 
 }
+
+
 
 
 #logo img{
@@ -72,7 +69,6 @@
 	color: black;
 	margin:auto;
 	padding-right: 10px;
-	
 	font-size: 15px
 }
 
